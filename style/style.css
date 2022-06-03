@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+/* fonts */
+@font-face {
+    font-family: forum;
+    src: url("../fonts/forum-regular.ttf")
+    format('truetype');
+}
+@font-face {
+    font-family: ostrich-black;
+    src: url("../fonts/ostrich/ostrich-sans-black.eot");
+    src: url("../fonts/ostrich/ostrich-sans-black.ttf")
+            format('truetype'),
+         url("../fonts/ostrich/ostrich-sans-black.eot#iefix")
+            format('embedded-opentype'),
+        url("../fonts/ostrich/ostrich-sans-black.woff")
+            format('woff');
+}
+@font-face {
+    font-family: ostrich-bold;
+    src: url("../fonts/ostrich/ostrich-sans-bold.eot");
+    src: url("../fonts/ostrich/ostrich-sans-bold.ttf")
+            format('truetype'),
+         url("../fonts/ostrich/ostrich-sans-bold.eot#iefix")
+            format('embedded-opentype'),
+         url("../fonts/ostrich/ostrich-sans-bold.woff")
+            format('woff');
+}
+@font-face {
+    font-family: ostrich-dashed;
+    src: url("../fonts/ostrich/ostrich-sans-dashed.eot");
+    src: url("../fonts/ostrich/ostrich-sans-dashed.ttf")
+            format('truetype'),
+         url("../fonts/ostrich/ostrich-sans-dashed.eot#iefix")
+            format('embedded-opentype'),
+         url("../fonts/ostrich/ostrich-sans-dashed.woff")
+            format('woff');
+}
+@font-face {
+    font-family: ostrich-inline-italic;
+    src: url("../fonts/ostrich/ostrich-sans-inline-italic.eot");
+    src: url("../fonts/ostrich/ostrich-sans-inline-italic.ttf")
+            format('truetype'),
+         url("../fonts/ostrich/ostrich-sans-inline-italic.eot#iefix")
+            format('embedded-opentype'),
+         url("../fonts/ostrich/ostrich-sans-inline-italic.woff")
+            format('woff');
+
+}
+@font-face {
+    font-family: ostrich-inline-regular;
+    src: url("../fonts/ostrich/ostrich-sans-inline-regular.eot");
+    src: url("../fonts/ostrich/ostrich-sans-inline-regular.ttf")
+            format('truetype'),
+         url("../fonts/ostrich/ostrich-sans-inline-regular.eot#iefix")
+            format('embedded-opentype'),
+         url("../fonts/ostrich/ostrich-sans-inline-regular.woff")
+            format('woff');
+}
+@font-face {
+    font-family: ostrich-light;
+    src: url("../fonts/ostrich/ostrich-sans-light.eot");
+    src: url("../fonts/ostrich/ostrich-sans-light.ttf")
+            format('truetype'),
+         url("../fonts/ostrich/ostrich-sans-light.eot#iefix")
+            format('embedded-opentype'),
+         url("../fonts/ostrich/ostrich-sans-light.woff")
+            format('woff');
+}
+@font-face {
+    font-family: ostrich-regular;
+    src: url("../fonts/ostrich/ostrich-sans-regular.eot");
+    src: url("../fonts/ostrich/ostrich-sans-regular.ttf")
+            format('truetype'),
+         url("../fonts/ostrich/ostrich-sans-regular.eot#iefix")
+            format('embedded-opentype'),
+         url("../fonts/ostrich/ostrich-sans-regular.woff")
+            format('woff');
+
+}
+@font-face {
+    font-family: ostrich-rounded;
+    src: url("../fonts/ostrich/ostrich-sans-rounded.eot");
+    src: url("../fonts/ostrich/ostrich-sans-rounded.ttf")
+            format('truetype'),
+         url("../fonts/ostrich/ostrich-sans-rounded.eot#iefix")
+            format('embedded-opentype'),
+         url("../fonts/ostrich/ostrich-sans-rounded.woff")
+            format('woff');
+}
+/* fonts Ende */
+
+
+/* allgemein */
+html{
+    scroll-behavior: smooth;
+}
+.container-fluid{
+    margin: 0!important;
+    padding: 0!important;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+body p{
+    font-family: 'Poiret One', cursive, ostrich-rounded, sans-serif;
+    font-size: 1.2em;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: italiana;
+}
+h1{
+    font-size: 3em;
+}
+h2{
+    font-size: 2.5em;
+}
+
+
+/* /allgemein */
+
+/* anker tags */
+header div.obere_ebene nav ul a:hover{
+    color: #b9b9b9;
+    transition: 0.25s;
+    text-decoration: none;
+}
+header div.obere_ebene nav ul a:active {
+    color: white;
+}
+
+
+
+
+/* header */
+header div.obere_ebene{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0 0;
+    background: black;
+}
+nav.unternav_page{
+    margin: 0;
+    padding: 0 10px 5px 10px;
+    /*
+    border-top: 1px solid #757575;
+     */
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+nav.unternav_page li{
+    padding: 0 15px 0 0;
+}
+
+header nav a{
+    font-family: 'Poiret One', cursive;
+    font-weight: 300;
+}
+header nav.unternav_page a{
+    color: black;
+    font-size: 1.2em;
+}
+header div.obere_ebene nav a{
+    color: white;
+    font-size: 1.3em;
+}
+div.obere_ebene nav li{
+    padding: 6% 10px 0 10px;
+    margin: 0;
+    height: 80px;
+}
+#hamburgericon{
+    font-size: 5em;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    line-height: 0px;
+    color: rgb(255, 255, 255);
+}
+header a img{
+    height: 80px;
+    width: 120px;
+    padding: 0 15px 0 15px;
+}
+header nav li.active{
+    background-color: #000000;
+}
+header nav li.active a{
+/*    color: black; */
+    text-decoration: overline;
+}
+nav li{
+    display: inline-block;
+}
+#hamburgernav li{
+    display: block;
+}
+#hamburgernav a{
+    font-size: 2.5em;
+}
+#hamburgericon:hover{
+    color: rgb(175, 175, 175);
+    transition: 00.3s;
+}
+#closebtn{
+    font-size: 5em;
+    line-height: 0.5;
+    position: absolute;
+    z-index: 9999;
+    top: 10px;
+    right: 10px;
+    display: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+#closebtn:hover{
+    color: #757575;
+    transition: 0.3s;
+}
+nav#hamburgernav{
+    font-family: "Fira Sans";
+    width: 0;
+    height: 100vh;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    background-color: rgb(0, 0, 0);
+    z-index: 20;
+    transition: 0.75s;
+}
+/*
+nav#hamburgernav
+}
+*/
+
+.burgernavcontainer{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .burgernavcontainer{
+        display: block;
+    }
+    .normalnav{
+        display: none;
+    }
+}
+/* /header */
+
+
+/* main */
+main div#slider{
+    height: calc(100vh - 80px) ;
+    width: 100%;
+    background: #757575 url("../pics/bsp/bspgreenpls.jpg") fixed;
+    color: white;
+    margin: 0;
+    font-family: 'italiana', serif, "Times New Roman";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 0 100px;
+}
+main div#slider h1{
+    font-size: 5em;
+}
+main div#slider h2{
+    font-size: 2.5em;
+}
+main .unternav{
+    margin: 0 0 0 100px;
+}
+main .unternav{
+    position: relative;
+    top: -7vh;
+    height: 0;
+}
+.unternav a{
+    color: white;
+    font-family: "Poiret One", cursive;
+    font-size: 1.3em;
+}
+.unternav a img{
+    height: 1.2em;
+    margin: 0 0 0 3%;
+}
+@media screen and (max-width: 861px){
+    .unternav a{
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 706px){
+    .unternav {
+        top: -10vh !important;
+    }
+}
+@media screen and (max-width: 580px){
+    .unternav{
+        display: none;
+    }
+}
+#shortintroduction{
+    padding: 0;
+    margin: 0;
+}
+main #intro{
+    background-color: black;
+    color: white;
+    font-size: 1.1em;
+    padding: 0;
+    margin: 0;
+}
+#shortintroduction img#intro_bild, div#intro_text{
+    padding: 0;
+    margin: 0;
+}
+.drinkbild{
+    display: flex;
+    align-items: center;
+}
+#news{
+    background-color: black;
+    color: white;
+    border-top: #757575 solid 1px;
+    overflow: hidden;
+    padding: 15px 30px 0 30px;
+}
+#news h2{
+}
+.custombreak{
+    display: none;
+}
+@media screen and (max-width: 800px) {
+    .custombreak{
+        display: block;
+    }
+}
+#news div section{
+    background-color: white;
+    color: black;
+    margin: 10px;
+    width: 20%;
+    padding: 10px 5px 2px 10px;
+}
+#highlights{
+    background: black;
+    color: white;
+    padding: 15px 30px 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+/*#highlights img{
+    height: 90vh;
+    width: fit-content !important;
+    justify-self: center;
+}*/
+.carouseldiv{
+    width: 70vw;
+    align-self: center;
+}
+.carouseldiv a{
+    color: white !important;
+}
+#socialmediaicons{
+    color: white;
+    background: black;
+    padding: 15px 30px 0 30px;
+}
+
+/* /main */
