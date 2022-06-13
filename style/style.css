@@ -366,7 +366,7 @@ main #intro{
     justify-self: center;
 }*/
 .carouseldiv{
-    width: 70vw;
+    width: 100%;
     align-self: center;
 }
 .carouseldiv a{
@@ -375,7 +375,55 @@ main #intro{
 #socialmediaicons{
     color: white;
     background: black;
-    padding: 15px 30px 0 30px;
+    padding: 15px 30px 20px 30px;
+}
+#socialmediaicons a{
+    color: rgb(117, 117, 117);
+    transition: 0.2s;
+    font-family: "Poiret One";
+    font-size: 1.2em;
+}
+#socialmediaicons a:hover{
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+hr{
+    border: solid #757575 1px;
+    margin: 0;
 }
 
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+footer{
+    color: white;
+    background: black;
+    font-family: "Poiret One";
+    margin: 0;
+    padding: 0;
+}
+footer.py-3.my-4.container{
+    margin: 0;
+}
+footer p{
+    margin-bottom: 0 !important;
+}
+footer li a{
+    color: white;
+    font-size: 1.2em;
+}
+footer li a:hover{
+    color: #757575;
+    transition: 0.2s;
+}
 /* /main */
