@@ -1,5 +1,5 @@
 function opennav() {
-    document.getElementById("hamburgernav").style.width = "50%";
+    document.getElementById("hamburgernav").style.width = "70%";
     document.getElementById("closebtn").style.display = "block";
 
 }
