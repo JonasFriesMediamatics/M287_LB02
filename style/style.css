@@ -435,10 +435,32 @@ hr{
 #aboutcontent section{
     height: 50vh;
 }
-
-
-
-
+#portcontent{
+    padding: 15px 30px 0 30px !important;
+}
+#portcontent .together{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+#portcontent .together div{
+    width: 50%;
+}
+.second_element{
+    text-align: right;
+}
+#portcontent section.sec{
+    height: 50vh !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+section.sec#prod1{
+    background: url("../imgs/red.jpg");
+}
+section.sec#prod4{
+    background: url("../imgs/berrys.jpg");
+}
 
 
 /*footer*/
