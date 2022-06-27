@@ -263,7 +263,7 @@ nav#hamburgernav
 main div#slider{
     height: calc(100vh - 80px) ;
     width: 100%;
-    background: #757575 url("../pics/bsp/bspgreenpls.jpg") fixed;
+    background: url("../imgs/hintergrund.jpg") fixed rgba(0, 0, 0, 0.5);
     color: white;
     margin: 0;
     font-family: 'italiana', serif, "Times New Roman";
@@ -332,7 +332,7 @@ main #intro{
 #news{
     background-color: black;
     color: white;
-    border-top: #757575 solid 1px;
+    /*border-top: #757575 solid 1px;*/
     overflow: hidden;
     padding: 15px 30px 0 30px;
 }
@@ -368,6 +368,7 @@ main #intro{
 .carouseldiv{
     width: 100%;
     align-self: center;
+    border: 2px solid white;
 }
 .carouseldiv a{
     color: white !important;
@@ -414,7 +415,7 @@ hr{
     font-size: 5em;
 }
 .rightelement{
-    background: black url("../pics/bsp/bspgreenpls.jpg") fixed;
+    background: black url("../imgs/hintergrund2.jpg") fixed;
     color: white;
     display: flex;
     align-content: center;
@@ -502,8 +503,21 @@ section.sec#prod2{
     color: white;
     padding-left: 15px;
 }
-
-
+div#contactcontent .kontaktformular{
+    color: white;
+    padding: 30px 0 0 0;
+    font-family: "Poiret One";
+}
+main{
+    border-bottom: 1px solid white;
+}
+#contactcontent a{
+    color: #9b9b9b;
+}
+#contactcontent a:hover{
+    color: #3a3a3a;
+    transition: 0.3s;
+}
 
 
 
