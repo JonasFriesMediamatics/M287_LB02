@@ -490,6 +490,19 @@ section.sec#prod2{
 .blackelement{
     color: white;
 }
+@media screen and (max-width: 800px){
+    #portcontent .together{
+        flex-wrap: wrap!important;
+    }
+    #portcontent section.sec{
+        width: 100%!important;
+    }
+}
+@media screen and (max-width: 500px){
+    #portcontent section.sec{
+        height: 33vh!important;
+    }
+}
 #contactcontent{
     padding: 0 15px 0 15px !important;
     background: black;
